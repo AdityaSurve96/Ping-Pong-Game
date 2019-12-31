@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <script src="pong.js"></script>
+	<style>
+	.right 
+	  { 
+	    position: absolute;
+		top:130;
+		right: 10px;
+		height: 200px;
+		width: 200px;
+		background-color: powderblue;
+	  }
+	  .left
+	  {
+	    position: absolute;
+		top:130;
+		left: 10px;
+		height: 200px;
+		width: 200px;
+		background-color: powderblue;
+	  }
+	  
+	  canvas 
+	  {
+		
+        display: block;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+	  .cright
+	  {
+	    position: absolute;
+		right: 55px;
+		height: 100px;
+		width: 100px;
+	
+	  }
+	  .pleft
+	  {
+	    position: absolute;
+		left: 50px;
+		height: 100px;
+		width: 100px;
+		
+	  }
+	  .instructions
+	  {
+		
+		left: 10px;
+		height: 70px;
+		width: 200px;
+		background-color: powderblue;
+	  }
+	  
+	</style>
+  </head>
+  <body>
+  <center><font color="red" size="3"> WElCOME TO THE PING PONG !!!!</center>
+    <div class=instructions>
+	   <h4><center>Use arrow keys to move the paddle</h4>
+	</div>
+    
+	<div id = "cscore" class="right" style="color:#0000FF">
+     <h3><center>Computer Score</center></h3>
+	   <div id= "c1score" class="cright" style="color:#FF0000"> </div>
+     
+    </div>
+	<div id = "pscore" class="left" style="color:#0000FF">
+     <h3><center>Player Score</center></h3>
+       <div id= "p1score" class="pleft" style="color:#FF0000"> </div>
+    </div>
+
+  <h1><center>Welcome to Ping Pong </center></h1>
+  </body>
+</html>
